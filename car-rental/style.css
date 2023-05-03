@@ -1,0 +1,153 @@
+body{
+	margin: 0 auto;
+
+	padding-bottom: 50px;
+	background-color: #f1f1f1;
+	max-width:1200px;
+	font-family:Arial;
+}
+
+.header {
+    padding-inline: 200px;
+    padding-top: 20px;
+    display: flex;
+    /* border-bottom-width: 2px; */
+    /* border-bottom-style: solid; */
+    padding-bottom: 20px;
+}
+
+.footer{
+	margin-top: 20px;
+	padding-top:25px;
+	align-items: center;
+}
+
+.car-rent{
+	height:60px;
+	width:auto;
+}
+
+.search-div{
+	display:flex;
+	flex-direction:column;
+	margin: 0 auto;
+	row-gap: 10px;
+}
+
+.search-up{
+	display:flex;
+	flex-direction: row;
+	column-gap: 2px;
+}
+
+.pin{
+	height:30px;
+	width:auto;
+	align-self: center;
+}
+
+.dest-input{
+	width:250px;
+	height:32px;
+}
+
+.search-btn{
+	width:100px;
+	height:36px;
+	border-radius:0px;
+	background-color: rgb(65,100,140);
+	color: white;
+	font-size:16px;
+	
+}
+
+.lang{
+	height:36px;
+	border-radius:0px;
+	background-color: rgb(65,100,140);
+	color:white;
+	font-size:16px;
+}
+
+#age-box{
+	display:none;
+	width:32px;
+	height:32px;
+}
+
+.page-content{
+	margin-top: 20px;
+	padding-inline: 200px;
+	padding-top:20px;
+	display:flex;
+	flex-direction: column;
+	row-gap:5px;
+}
+
+
+.car-div {
+	display: flex;
+	flex: 1;
+	padding: 20px;
+	border-width: 1px;
+	border-radius: 12px;
+	border-style: solid;
+	background-color: white;
+	border-color: darkgray;
+}
+
+/*div left*/
+.car-div-left {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:33.33%;
+	align-items: center;
+}
+
+.car-img {
+	width: 240px;
+	height: auto;
+}
+
+.rent-img {
+	height: 40px;
+	width: max-content;
+}
+
+/*div mid*/
+.car-div-mid {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-left: 0px;
+	position: relative;
+	width:33.33%;
+}
+
+.car-name{
+	margin-left:0px;
+}
+
+.car-info{
+	margin-left:0px;
+}
+
+/*div right*/
+
+.car-div-right {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0px;
+	position: relative;
+	width:33.33%;
+}
+
+.book-deal {
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	background-color: rgb(65,100,140);
+	color: white;
+	border-radius: 5px;
+}
