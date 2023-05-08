@@ -41,6 +41,7 @@ body{
 }
 
 .pin{
+	margin-inline: 2px;
 	height:30px;
 	width:auto;
 	align-self: center;
@@ -48,25 +49,34 @@ body{
 
 .dest-input{
 	width:250px;
-	height:32px;
+	height:32px;	
+	border-radius: 5px;
+	outline: none;
+	padding-inline: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: solid 2px grey;
 }
 
 .search-btn{
 	width:100px;
 	height:36px;
-	border-radius:0px;
+	border-radius:5px;
 	background-color: rgb(65,100,140);
 	color: white;
 	font-size:16px;
+	border:none;
 	
 }
 
 .lang{
 	height:36px;
-	border-radius:0px;
+	border-radius:5px;
+	padding-inline: 10px;
 	background-color: rgb(65,100,140);
 	color:white;
 	font-size:16px;
+	border:none;
 }
 
 #age-box{
